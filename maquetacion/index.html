@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AgroHuella</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="styles.css"
+    />
+  </head>
+  <body>
+    <nav class="menu">
+      <img
+        width="80"
+        height="80"
+        src="./assets/img/Designer-removebg-preview.png"
+      />
+      <ul class="menuList">
+        <li class="menuItem">Inicio</li>
+        <li class="menuItem">Blog</li>
+        <li class="menuItem">Contacto</li>
+      </ul>
+    </nav>
+    <header class="hero">
+      <article class="texto-hero">
+        <h1>AgroHuella</h1>
+        <p>
+          Calcula y comprende la huella de carbono de tu finca con nuestra
+          aplicación web fácil de usar. Mejora tus prácticas, alinea tu
+          producción con los Objetivos de Desarrollo Sostenible y demuestra tu
+          compromiso con el medio ambiente.
+        </p>
+        <a
+          href="#"
+          class="boton-hero"
+          >Ingresar</a
+        >
+      </article>
+    </header>
+
+    <section class="contTarjetas">
+      <article class="tarjeta">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1"
+          stroke="currentColor"
+          class=""
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M7.864 4.243A7.5 7.5 0 0119.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 004.5 10.5a7.464 7.464 0 01-1.15 3.993m1.989 3.559A11.209 11.209 0 008.25 10.5a3.75 3.75 0 117.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 01-3.6 9.75m6.633-4.596a18.666 18.666 0 01-2.485 5.33"
+          />
+        </svg>
+        <h2>Sostenibilidad</h2>
+        <p>
+          Promover prácticas agrícolas sostenibles y respetuosas con el medio
+          ambiente.
+        </p>
+      </article>
+      <article class="tarjeta">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1"
+          stroke="currentColor"
+          class=""
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418"
+          />
+        </svg>
+
+        <h2>Digitalización</h2>
+        <p>
+          Democratizar la tecnología para todos los agricultores,
+          independientemente de su tamaño o ubicación.
+        </p>
+      </article>
+      <article class="tarjeta">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1"
+          stroke="currentColor"
+          class=""
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z"
+          />
+        </svg>
+
+        <h2>Colaboración</h2>
+        <p>
+          Alianzas estratégicas con otras organizaciones, agricultores y actores
+          del sector agrícola para lograr un impacto real
+        </p>
+      </article>
+    </section>
+    <section class="contCollapse">
+      <article class="contIndCollapse">
+        <div>
+          <h2>Análisis y comparación contextual</h2>
+          <button
+            id="btnColapse1"
+            onclick="collapse('contenido1', 'btnColapse1')"
+          >
+            +
+          </button>
+        </div>
+        <p
+          id="contenido1"
+          class="cerrado"
+        >
+          La aplicación utiliza una base de datos robusta para realizar análisis
+          y comparaciones contextualizadas. Esto permite a los agricultores
+          evaluar su rendimiento en relación con otras fincas en la misma zona o
+          con características de cultivo similares. Esta perspectiva contextual
+          es fundamental para identificar oportunidades de mejora y establecer
+          metas sostenibles basadas en datos reales y comparables.
+        </p>
+      </article>
+      <article class="contIndCollapse">
+        <div>
+          <h2>Consejos y recomendaciones personalizadas</h2>
+          <button
+            id="btnColapse2"
+            onclick="collapse('contenido2','btnColapse2')"
+          >
+            +
+          </button>
+        </div>
+        <p
+          id="contenido2"
+          class="cerrado"
+        >
+          AgroHuella va más allá de la simple medición de la huella de carbono
+          al ofrecer consejos y recomendaciones personalizadas. Estas
+          recomendaciones se basan en análisis de datos y mejores prácticas
+          agrícolas, lo que permite a los agricultores implementar acciones
+          específicas para reducir su impacto ambiental y mejorar su eficiencia.
+        </p>
+      </article>
+      <article class="contIndCollapse">
+        <div>
+          <h2>Verificación y transparencia</h2>
+          <button
+            id="btnColapse3"
+            onclick="collapse('contenido3', 'btnColapse3')"
+          >
+            +
+          </button>
+        </div>
+        <p
+          id="contenido3"
+          class="cerrado"
+        >
+          AgroHuella incorpora un sistema de verificación digital a través de
+          códigos QR, lo que permite a terceros acceder y validar los informes
+          de huella de carbono generados por la aplicación. Esto aumenta la
+          transparencia y confiabilidad de los resultados, generando mayor
+          confianza entre los agricultores y otros actores de la cadena de
+          suministro.
+        </p>
+      </article>
+    </section>
+    <section class="contacto">
+        <div class="form">
+            <h2>Contacta con nosotros</h2>
+            <p>
+                Si necesitas información adicional sobre nuestros servicios, productos o cualquier otro aspecto relacionado con nuestra entidad, no dudes en preguntar. Estamos aquí para ayudarte en todo lo que necesites.
+            </p>
+            <form class="datos">
+                <label>Nombre
+                    <input type="text"/> 
+                </label>
+                
+                <label>Email
+                    <input type="email"/>
+                </label>
+                 
+                <label>Asunto
+                    <input type="text"/>
+                </label>
+                
+                <label>Mensaje
+                    <textarea id="mensaje"></textarea>  
+                </label>
+                
+                <button class="boton-hero"type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="contMap">
+            <img src="./assets/img/mapa.png" width="100%"/>
+        </div>
+      
+    </section>
+    <footer class="footer">
+      <div>
+        <h4>Extra</h4>
+        <ol class="footerList">
+          <li>Administración</li>
+          <li>Empresas</li>
+          <li>Socios</li>
+          <li>Agenda 2030</li>
+        </ol>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ol class="footerList">
+          <li>Derechos reservados</li>
+          <li>Políticas de privacidad</li>
+          <li>Responsabilidad corporativa</li>
+        </ol>
+      </div>
+      <div>
+        <h4>Redes sociales</h4>
+        <div class="menuList">
+          <div class="contImg">
+            <a
+              href="https://www.linkedin.com/in/gabo-tovar-37b405251/"
+              target="_blank"
+            >
+              <img
+                src="https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://linkedin.com&size=48"
+                width="24px"
+                height="24px"
+              />
+            </a>
+          </div>
+          <div class="contImg">
+            <a
+              href="https://www.instagram.com/gabotov/"
+              target="_blank"
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/132px-Instagram_logo_2016.svg.png?20210403190622"
+                width="24px"
+                height="24px"
+              />
+            </a>
+          </div>
+          <div class="contImg">
+            <a
+              href="https://twitter.com/Gabo_Tov"
+              target="_blank"
+            >
+              <img
+                src="https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://twitter.com&size=96"
+                width="24px"
+                height="24px"
+              />
+            </a>
+          </div>
+          <div class="contImg">
+            <a
+              href="https://github.com/GaboTov"
+              target="_blank"
+            >
+              <img
+                src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU=w240-h480-rw"
+                width="24px"
+                height="24px"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>

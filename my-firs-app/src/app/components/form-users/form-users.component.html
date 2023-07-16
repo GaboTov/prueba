@@ -1,0 +1,13 @@
+
+<form>
+    <div class="title">
+        <input type="text" [(ngModel)]="data.name" [disabled]="disables" name="nombre">
+        <input type="text" [(ngModel)]="data.
+        id" [disabled]="disables"name="userId">
+        <input type="number" [(ngModel)]="data.createDate" [disabled]="disables" name="createDate"/>
+        <input type="number" [(ngModel)]="data.updateDate" [disabled]="disables" name="updateDate"/>
+    </div>
+    <button (click)="updateUser()">Actualizar</button>
+    <button (click)="createUser()">Guardar</button>
+    <button (click)="deleteUser()">Eliminar</button>
+</form>

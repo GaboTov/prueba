@@ -1,0 +1,12 @@
+
+<div class="title">
+    <h3>Usuario</h3>
+    <h3>Id</h3>
+    <h3>Create Date</h3>
+    <h3>Update Date</h3>
+    
+</div>
+<div *ngFor="let user of users">
+    <app-form-users [data]="user" [disables]="true"/>
+</div>
+<app-form-users/>
